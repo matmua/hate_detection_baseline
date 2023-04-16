@@ -1,0 +1,11 @@
+# data preprocess
+data_path = 'dataset/实验_plus/N折交叉验证/ndata_6'
+train_file = 'train.csv'
+valid_file = 'test.csv'
+test_file = 'test.csv'
+fix_length = 256
+batch_size = 16
+class_number = 2
+# train details
+epochs = 2
+learning_rate = 1e-3
